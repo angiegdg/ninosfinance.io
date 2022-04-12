@@ -358,7 +358,7 @@ a:hover {
 }
 
 .navbar {
-	background-color: #e3e4e5;
+	background-color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0.875rem;
@@ -392,7 +392,7 @@ a:hover {
 	padding-left: 1rem;
 	overflow-y: auto;
 	visibility: hidden;
-	background-color: #e3e4e5;
+	background-color: #ffffff;
 	transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
 	transition: transform .3s ease-in-out, visibility .3s ease-in-out;
 	transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
@@ -442,13 +442,13 @@ a:hover {
 	margin-top: 0.25rem;
 	margin-bottom: 0.25rem;
 	border: none;
-	background-color: #e3e4e5;
+	background-color: #ffffff;
 }
 
 .navbar .dropdown-item {
 	padding-top: 0.625rem;
 	padding-bottom: 0.625rem;
-	color: #272556;
+	color: #000000;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0.875rem;
@@ -482,7 +482,7 @@ a:hover {
 .header {
 	padding-top: 8rem;
 	padding-bottom: 9rem;
-	background-color: #e3e4e5;
+	background-color: #ffffff;
 	text-align: center;
 }
 
@@ -866,7 +866,7 @@ a:hover {
 .cards-2 .card-title span {
 	margin-right: 0.5rem;
 	margin-left: 0.5rem;
-	color: #272556;
+	color: #000000;
 	font-weight: 700;
 	font-size: 1.55rem;
 	line-height: 2rem;
@@ -941,7 +941,7 @@ a:hover {
 }
 
 .accordion-1 .accordion-button:not(.collapsed)::before {
-	background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 436.686 265.011'%3e%3cdefs%3e%3cstyle%3e.cls-1%7bfill:%23272556;%7d%3c/style%3e%3c/defs%3e%3ctitle%3echevron-down-solid-1%3c/title%3e%3cpath class='cls-1' d='M201.373,257.982L7.03,63.638a24,24,0,0,1,0-33.941L29.7,7.03a24,24,0,0,1,33.9-.04L218.344,161.011,373.089,6.99a24,24,0,0,1,33.9.04L429.657,29.7a24,24,0,0,1,0,33.941L235.315,257.982a24,24,0,0,1-33.942,0h0Z'/%3e%3c/svg%3e");
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 436.686 265.011'%3e%3cdefs%3e%3cstyle%3e.cls-1%7bfill:%23ff0000;%7d%3c/style%3e%3c/defs%3e%3ctitle%3echevron-down-solid-1%3c/title%3e%3cpath class='cls-1' d='M201.373,257.982L7.03,63.638a24,24,0,0,1,0-33.941L29.7,7.03a24,24,0,0,1,33.9-.04L218.344,161.011,373.089,6.99a24,24,0,0,1,33.9.04L429.657,29.7a24,24,0,0,1,0,33.941L235.315,257.982a24,24,0,0,1-33.942,0h0Z'/%3e%3c/svg%3e");
 	transform: rotate(-180deg);
 }
 
@@ -954,7 +954,7 @@ a:hover {
 	margin-right: 0.75rem;
 	margin-left: auto;
 	content: "";
-	background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 436.686 265.011'%3e%3cdefs%3e%3cstyle%3e.cls-1%7bfill:%23272556;%7d%3c/style%3e%3c/defs%3e%3ctitle%3echevron-down-solid-1%3c/title%3e%3cpath class='cls-1' d='M201.373,257.982L7.03,63.638a24,24,0,0,1,0-33.941L29.7,7.03a24,24,0,0,1,33.9-.04L218.344,161.011,373.089,6.99a24,24,0,0,1,33.9.04L429.657,29.7a24,24,0,0,1,0,33.941L235.315,257.982a24,24,0,0,1-33.942,0h0Z'/%3e%3c/svg%3e");
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 436.686 265.011'%3e%3cdefs%3e%3cstyle%3e.cls-1%7bfill:%23ff0000;%7d%3c/style%3e%3c/defs%3e%3ctitle%3echevron-down-solid-1%3c/title%3e%3cpath class='cls-1' d='M201.373,257.982L7.03,63.638a24,24,0,0,1,0-33.941L29.7,7.03a24,24,0,0,1,33.9-.04L218.344,161.011,373.089,6.99a24,24,0,0,1,33.9.04L429.657,29.7a24,24,0,0,1,0,33.941L235.315,257.982a24,24,0,0,1-33.942,0h0Z'/%3e%3c/svg%3e");
 	background-repeat: no-repeat;
 	background-size: 1.125rem;
 	transition: transform 0.2s ease-in-out;
@@ -1189,7 +1189,7 @@ a:hover {
 	.navbar.top-nav-collapse {
 		padding-top: 0.5rem;
 		padding-bottom: 0.5rem;
-		background-color: #e3e4e5;
+		background-color: #ffffff;
 	}
 
 	.offcanvas-collapse {
