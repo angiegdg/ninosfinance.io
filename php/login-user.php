@@ -169,7 +169,7 @@
                             <ul class="list-unstyled li-space-lg p-small">
                                 <li>Important: <a href="terms.html">Terms & Conditions</a>, <a href="privacy.html">Privacy Policy</a></li>
                                 <li>Useful: <a href="#">Careers</a>, <a href="#">Support</a>, <a href="#">Contact</a></li>
-                                <li>Menu: <a href="#header">Home</a>, <a href="#features">Features</a>, <a href="#details">Details</a>, <a href="#pricing">Pricing</a></li>
+                                <li>Menu: <a href="#header">Home</a>, <a href="#features">Features</a>, <a href="#details">Details</a>, <a href="#pricing">Services</a></li>
                             </ul>
                         </div> <!-- end of footer-col -->
                         <div class="footer-col third">
