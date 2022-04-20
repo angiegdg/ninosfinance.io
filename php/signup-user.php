@@ -84,7 +84,7 @@
                         </li>
                     </ul>
                     <span class="nav-item">
-                        <a class="btn-outline-sm" href="log-in.html">Log in</a>
+                        <a class="btn-outline-sm" src="php/login-user.php">Log in</a>
                     </span>
                 </div> <!-- end of navbar-collapse -->
             </div> <!-- end of container -->
@@ -114,7 +114,7 @@
                             <p class="mb-4">Fill out the form below to sign up for the service. Already signed up? Then just <a class="red" href="php/login-user.php">Log In</a></p>
 
                             <!-- Sign Up Form -->
-                            <formaction="signup-user.php" method="POST" autocomplete="">
+                            <form action="signup-user.php" method="POST" autocomplete="">
 
                                                     <?php
                     if(count($errors) == 1){

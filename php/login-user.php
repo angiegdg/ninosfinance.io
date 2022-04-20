@@ -84,7 +84,7 @@
                         </li>
                     </ul>
                     <span class="nav-item">
-                        <a class="btn-outline-sm" href="log-in.html">Log in</a>
+                        <a class="btn-outline-sm" src="php/login-user.php">Log in</a>
                     </span>
                 </div> <!-- end of navbar-collapse -->
             </div> <!-- end of container -->
@@ -111,7 +111,7 @@
                 <div class="row">
                     <div class="col-xl-6 offset-xl-3">
                         <div class="text-box mt-5 mb-5">
-                            <p class="mb-4">Not yet a member? Then please <a class="red" href="sign-up.html">Sign Up NOW!</a></p>
+                            <p class="mb-4">Not yet a member? Then please <a class="red" src="php/login-user.php">Sign Up NOW!</a></p>
 
                             <!-- Log In Form -->
                             <form action="login-user.php" method="POST" autocomplete="">
