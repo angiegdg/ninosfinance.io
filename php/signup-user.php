@@ -23,13 +23,13 @@
         
         <!-- Styles -->
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/fontawesome-all.min.css" rel="stylesheet">
-        <link href="css/swiper.css" rel="stylesheet">
-        <link href="css/styles.css" rel="stylesheet">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome-all.min.css" rel="stylesheet">
+        <link href="../css/swiper.css" rel="stylesheet">
+        <link href="../css/styles.css" rel="stylesheet">
         
         <!-- Favicon  -->
-        <link rel="icon" href="images/favicon.png">
+        <link rel="icon" href="../images/favicon.png">
     </head>
     <body data-bs-spy="scroll" data-bs-target="#navbarExample">
 
@@ -57,11 +57,11 @@
                 <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
 
                     <!-- the logo can be commented here and added above -->
-                    <a class="navbar-brand logo-image" href="index.html"><img src="images/logo_sin_fondo.png" alt="alternative"></a> 
+                <a class="navbar-brand logo-image" href="../index.html"><img src="../images/logo_sin_fondo.png" alt="alternative"></a> 
                     
                     <ul class="navbar-nav ms-auto navbar-nav-scroll">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#pricing">Services</a>
@@ -238,15 +238,15 @@
 
         <!-- Back To Top Button -->
         <button onclick="topFunction()" id="myBtn">
-            <img src="images/up-arrow.png" alt="alternative">
+            <img src="../images/up-arrow.png" alt="alternative">
         </button>
         <!-- end of back to top button -->
             
         <!-- Scripts -->
-        <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-        <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-        <script src="js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
-        <script src="js/replaceme.min.js"></script> <!-- ReplaceMe for rotating text -->
-        <script src="js/scripts.js"></script> <!-- Custom scripts -->
+        <script src="../js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+        <script src="../js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+        <script src="../js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
+        <script src="../js/replaceme.min.js"></script> <!-- ReplaceMe for rotating text -->
+        <script src="../js/scripts.js"></script> <!-- Custom scripts -->
     </body>
 </html>

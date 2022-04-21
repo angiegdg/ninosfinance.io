@@ -23,10 +23,10 @@
         
         <!-- Styles -->
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/fontawesome-all.min.css" rel="stylesheet">
-        <link href="css/swiper.css" rel="stylesheet">
-        <link href="css/styles.css" rel="stylesheet">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome-all.min.css" rel="stylesheet">
+        <link href="../css/swiper.css" rel="stylesheet">
+        <link href="../css/styles.css" rel="stylesheet">
         
         <!-- Favicon  -->
         <link rel="icon" href="images/favicon.png">
@@ -57,11 +57,11 @@
                 <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
 
                     <!-- the logo can be commented here and added above -->
-                    <a class="navbar-brand logo-image" href="index.html"><img src="images/logo_sin_fondo.png" alt="alternative"></a> 
+            <a class="navbar-brand logo-image" href="../index.html"><img src="../images/logo_sin_fondo.png" alt="alternative"></a> 
                     
                     <ul class="navbar-nav ms-auto navbar-nav-scroll">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#pricing">Services</a>
@@ -111,7 +111,7 @@
                 <div class="row">
                     <div class="col-xl-6 offset-xl-3">
                         <div class="text-box mt-5 mb-5">
-                            <p class="mb-4">Not yet a member? Then please <a class="red" href="sign-up.html">Sign Up NOW!</a></p>
+                            <p class="mb-4">Not yet a member? Then please <a class="red" href="signup-user.php">Sign Up NOW!</a></p>
 
                             <!-- Log In Form -->
                             <form action="login-user.php" method="POST" autocomplete="">
@@ -138,7 +138,7 @@
                                     <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
                                     <label for="floatingPassword">Password</label>
                                 </div>
-                              <br><div class="link forget-pass text-left"><a href="forgot-password.php">Forgot password?</a></div>
+                              <br><div class="link forget-pass text-left"><a href="forgot-password.php">Forgot password?</a></div><br>
                                 <div class="mb-4 form-check">
                                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                     <label class="form-check-label" for="exampleCheck1">I agree with the site's stated <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms & Conditions</a></label>
@@ -169,7 +169,7 @@
                             <ul class="list-unstyled li-space-lg p-small">
                                 <li>Important: <a href="terms.html">Terms & Conditions</a>, <a href="privacy.html">Privacy Policy</a></li>
                                 <li>Useful: <a href="#">Careers</a>, <a href="#">Support</a>, <a href="#">Contact</a></li>
-                                <li>Menu: <a href="#header">Home</a>, <a href="#features">Features</a>, <a href="#details">Details</a>, <a href="#pricing">Services</a></li>
+                                <li>Menu: <a href="../index.html">Home</a>, <a href="#features">Features</a>, <a href="#details">Details</a>, <a href="#pricing">Services</a></li>
                             </ul>
                         </div> <!-- end of footer-col -->
                         <div class="footer-col third">
@@ -224,15 +224,15 @@
 
         <!-- Back To Top Button -->
         <button onclick="topFunction()" id="myBtn">
-            <img src="images/up-arrow.png" alt="alternative">
+            <img src="../images/up-arrow.png" alt="alternative">
         </button>
         <!-- end of back to top button -->
             
         <!-- Scripts -->
-        <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-        <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-        <script src="js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
-        <script src="js/replaceme.min.js"></script> <!-- ReplaceMe for rotating text -->
-        <script src="js/scripts.js"></script> <!-- Custom scripts -->
+        <script src="../js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+        <script src="../js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+        <script src="../js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
+        <script src="../js/replaceme.min.js"></script> <!-- ReplaceMe for rotating text -->
+        <script src="../js/scripts.js"></script> <!-- Custom scripts -->
     </body>
 </html>
