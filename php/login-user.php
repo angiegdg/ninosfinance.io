@@ -84,7 +84,7 @@
                         </li>
                     </ul>
                     <span class="nav-item">
-                        <a class="btn-outline-sm" href="php/login-user.php">Log in</a>
+                        <a class="btn-outline-sm" href="login-user.php">Log in</a>
                     </span>
                 </div> <!-- end of navbar-collapse -->
             </div> <!-- end of container -->
