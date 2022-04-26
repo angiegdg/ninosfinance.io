@@ -131,11 +131,11 @@
                             ?>
 
                                 <div class="mb-4 form-floating">
-                                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required value="<?php echo $email ?>">
+                                    <input name="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required value="<?php echo $email ?>">
                                     <label for="floatingInput">Email address</label>
                                 </div>
                                 <div class="mb-4 form-floating">
-                                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                    <input name="password" type="password" class="form-control" id="floatingPassword" placeholder="Password">
                                     <label for="floatingPassword">Password</label>
                                 </div>
                               <br><div class="link forget-pass text-left"><a href="forgot-password.php">Forgot password?</a></div><br>
