@@ -142,22 +142,26 @@
                     }
                     ?>
                                 <div class="mb-4 form-floating">
-                                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required value="<?php echo $email ?>">
+                                    <input name="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required value="<?php echo $email ?>">
                                     <label for="floatingInput">Email address</label>
                                 </div>
                                 <div class="mb-4 form-floating">
-                                    <input type="text" class="form-control" id="floatingInput2" placeholder="Your name" required value="<?php echo $name ?>">
+                                    <input type="name" type="text" class="form-control" id="floatingInput2" placeholder="Your name" required value="<?php echo $name ?>">
                                     <label for="floatingInput">Your name</label>
                                 </div>
                                 <div class="mb-4 form-floating">
-                                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                    <input name="password" type="password" class="form-control" id="floatingPassword" placeholder="Password">
                                     <label for="floatingPassword">Password</label>
+                                </div>
+                                <div class="mb-4 form-floating">
+                                    <input name="cpassword" type="password" class="form-control" id="confirmPassword" placeholder=" Confirm Password">
+                                    <label for="floatingPassword">Confirm Password</label>
                                 </div>
                                 <div class="mb-4 form-check">
                                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                     <label class="form-check-label" for="exampleCheck1">I agree with the site's stated <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms & Conditions</a></label>
                                 </div>
-                                <button type="submit" class="form-control-submit-button">Sign up</button>
+                                <button name="signup" value="signup" type="submit" class="form-control-submit-button">Sign up</button>
                             </form>
                             <!-- end of sign up form -->
 
@@ -176,21 +180,55 @@
                     <div class="col-lg-12">
                         <div class="footer-col first">
                             <h6>About Us</h6>
-                            <p class="p-small">Proin ut felis purus vestibulum in orci molestie, efficitur lacus ac pellentesque elit. Fusce mollis laoreet lobortis nulla ac efficitur lacus ac </p>
+                            <p class="p-small">ninos.finance is a decentralized Web3.0 application that provides users the easiest and safest way to connect to multiple blockchain networks. No Assets are held by ninos.finance, we do not offer financial advice and we promote independence. Funds in any connected wallets are not eligible for Canadian Investor Protection Fund coverage. <br> 
+                            
+                            <a href="https://www10.fintrac-canafe.gc.ca/msb-esm/public/detailed-information/msb-details/7b226d73624f72674e756d626572223a3136343934332c227072696d617279536561726368223a7b226f72674e616d65223a226e696e6f73222c2273656172636854797065223a317d7d/"><p>FINTRAC: <u>#M21844944</u></p>
+                            </a>
+                            </p>
                         </div> <!-- end of footer-col -->
                         <div class="footer-col second">
-                            <h6>Extra Links</h6>
+                            <h6>Company</h6>
                             <ul class="list-unstyled li-space-lg p-small">
-                                <li>Important: <a href="terms.html">Terms & Conditions</a>, <a href="privacy.html">Privacy Policy</a></li>
-                                <li>Useful: <a href="#">Careers</a>, <a href="#">Support</a>, <a href="#">Contact</a></li>
-                                <li>Menu: <a href="#header">Home</a>, <a href="#features">Features</a>, <a href="#details">Details</a>, <a href="#pricing">Services</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Business Contact</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="#">AML Policy</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
                             </ul>
                         </div> <!-- end of footer-col -->
+                        
+                        <div class="footer-col second">
+                            <h6>Networks</h6>
+                            <ul class="list-unstyled li-space-lg p-small">
+                                <li><a href="#">Bitcoin</a></li>
+                                <li><a href="#">Ethereum</a></li>
+                                <li><a href="#">Solana</a></li>
+                                <li><a href="#">Terra</a></li>
+                                <li><a href="#">Avalanche</a></li>
+                                <li><a href="#">Fantom</a></li>
+                            </ul>
+                        </div> <!-- end of footer-col -->
+                        
+                        <div class="footer-col second">
+                            <h6>Language</h6>
+                            <ul class="list-unstyled li-space-lg p-small">
+                                <li><a href="#">English</a></li>
+                                <li><a href="#">French</a></li>
+                                <li><a href="#">Spanish</a></li>
+                            </ul>
+                        </div> <!-- end of footer-col -->
+                        
                         <div class="footer-col third">
                             <span class="fa-stack">
                                 <a href="#your-link">
                                     <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                    <i class="fab fa-discord fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-telegram fa-stack-1x"></i>
                                 </a>
                             </span>
                             <span class="fa-stack">
@@ -202,22 +240,32 @@
                             <span class="fa-stack">
                                 <a href="#your-link">
                                     <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                                    <i class="fab fa-linkedin fa-stack-1x"></i>
                                 </a>
                             </span>
-                            <span class="fa-stack">
-                                <a href="#your-link">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-instagram fa-stack-1x"></i>
-                                </a>
-                            </span>
-                            <p class="p-small">Quam posuerei pellent esque vam <a href="mailto:contact@site.com"><strong>contact@site.com</strong></a></p>
+
                         </div> <!-- end of footer-col -->
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
             </div> <!-- end of container -->
         </div> <!-- end of footer -->  
         <!-- end of footer -->
+
+   
+        <!-- Copyright -->
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6"><br>
+                        <p class="p-small">Copyright © <a href="#your-link">Ninos.Finance</a></p>
+                    </div> <!-- end of col -->
+
+                    <div class="col-lg-6"><br>
+                        <p class="p-small">2022 - <a href="#">All rights reserved</a></p>    
+                    </div> <!-- enf of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of copyright --> 
+        <!-- end of copyright -->
 
    
         <!-- Copyright -->
