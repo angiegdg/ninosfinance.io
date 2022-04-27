@@ -139,7 +139,8 @@ if($email == false){
                     }
                     ?>
                     <div class="mb-4 form-floating">
-                        <input class="form-control" type="number" name="otp" placeholder="Enter verification code" required>
+                        <input class="form-control" type="number" name="otp" id="floatingInputCode" placeholder="Enter verification code" required>
+                        <label for="floatingInputCode">Enter verification code</label>
                     </div>
                     
                     <button type="submit" name="check" value="Submit" class="form-control-submit-button">Validate Code</button>
